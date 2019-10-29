@@ -6,10 +6,10 @@ Crop işlemi için kullanılan kütüphane : https://github.com/ArthurHub/Androi
 
 Eğer fragment içinde kullanacaksanız 
 
- '''CropImage.activity(uri)
-                    .setAspectRatio(1,1)
-                    .setGuidelines(CropImageView.Guidelines.ON)
-                    .start(getContent(), this);
+     CropImage.activity(uri)
+                        .setAspectRatio(1,1)
+                        .setGuidelines(CropImageView.Guidelines.ON)
+                        .start(getContent(), this);
                     
 şeklinde "getContent()" kullanmanız gerekir.          
 
